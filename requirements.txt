@@ -1,0 +1,10 @@
+openai
+transformers
+sentence-transformers
+tiktoken
+chromadb
+faiss-cpu
+matplotlib
+scikit-learn
+ipywidgets
+jupyterlab
