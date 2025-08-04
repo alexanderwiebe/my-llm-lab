@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.11
 
 # System dependencies
 RUN apt-get update && apt-get install -y \
@@ -17,8 +17,6 @@ COPY . .
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt
 
-# Create a user for VS Code
-RUN useradd -m vscode
 USER vscode
 
 # Ensure ~/.local/bin is in PATH for the vscode user
