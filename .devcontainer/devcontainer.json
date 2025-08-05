@@ -11,7 +11,7 @@
         "github.copilot-chat"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.defaultInterpreterPath": "/usr/local/bin/python3",
         "python.terminal.activateEnvironment": true,
         "jupyter.jupyterServerType": "local"
       }
