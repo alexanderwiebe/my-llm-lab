@@ -9,3 +9,4 @@ scikit-learn
 ipywidgets
 jupyterlab
 python-dotenv
+seaborn
